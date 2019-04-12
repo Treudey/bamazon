@@ -8,7 +8,7 @@
  * 4. Controller gets Model to check if the ID inputted is in the database and if not we tell View to ask user to select on item that is on the list
  * 5. Controller gets Model to check if there is enough quantitiy for the selected item and if the controller asks View to tell the user there is insifficient stock
  * 6. If both parts of request are valid, Controller asks model to update database by removing appropriate quantity from database
- * 7. Controller gets Modal to give price of object and tels View to tell user the transaction was successful and the total cost
+ * 7. Controller gets Modal to give price of object and tells View to tell user the transaction was successful and the total cost
  * 8. Controller asks View to prompt user for another transaction and loop repeats until user exits program
    * */
 
