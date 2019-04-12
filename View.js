@@ -64,7 +64,7 @@ const View = {
 
     displayTransactionResult: function(isSuccessful, total) {
         if (isSuccessful) {
-            console.log('\nTransaction successful! You paid ', + total.toFixed(2) + '\n');
+            console.log('\nTransaction successful! You paid $' + total.toFixed(2) + '\n');
         } else {
             console.log('\nTransaction failed. Please try again\n');
         }
