@@ -1,0 +1,30 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A CLI application like Amazon using MySQL and Node",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Treudey/bamazon.git"
+  },
+  "keywords": [
+    "Node",
+    "MySQL",
+    "NPM",
+    "Amazon"
+  ],
+  "author": "Alex Treude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Treudey/bamazon/issues"
+  },
+  "homepage": "https://github.com/Treudey/bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
